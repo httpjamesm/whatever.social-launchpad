@@ -50,8 +50,8 @@
 		>.
 	</p>
 
+    <h3>Social Frontends</h3>
 	<div class="services">
-		<h3>Social Frontends</h3>
 		{#each socialServices as service}
 			<Service {...service} />
 		{/each}

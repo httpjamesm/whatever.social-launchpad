@@ -40,6 +40,8 @@ body {
 	padding: 0.15rem;
 
 	transition-duration: 100ms;
+
+    cursor: pointer;
 }
 
 .link:hover {

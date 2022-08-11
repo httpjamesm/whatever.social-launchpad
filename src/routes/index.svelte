@@ -31,6 +31,25 @@
 		invasive services, like Google and Twitter.
 	</p>
 
+	<p>
+		Have questions or feedback? Contact the admin via <span
+			class="link"
+			on:click={() => {
+				// clipboard copy
+				try {
+					navigator.clipboard.writeText(
+						'0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e'
+					);
+                    alert("Copied to clipboard!");
+				} catch (e) {
+					alert(
+						"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e."
+					);
+				}
+			}}>Session</span
+		>.
+	</p>
+
 	<div class="services">
 		<h3>Social Frontends</h3>
 		{#each socialServices as service}

@@ -1,16 +1,45 @@
 <script lang="ts">
+	import { browser } from '$app/env';
+
+	import { onMount } from 'svelte';
+
 	export let name: string;
 	export let desc: string;
 	export let iconUrl: string;
 	export let url: string;
 	export let src: string = '';
+	export let statusId: string;
+
+	let status = 'pending';
+
+	const fetchStatus = async () => {
+		const request = await fetch(`https://statusapi.whatever.social/${statusId}`);
+
+		const response: {
+			success: boolean;
+			data: boolean;
+		} = await request.json();
+
+		if (response.success) {
+			status = response.data ? 'up' : 'down';
+		}
+	};
+
+	onMount(() => {
+		if (browser) {
+			fetchStatus();
+		}
+	});
 </script>
 
 <div class="container">
 	<div class="child">
 		<img src={iconUrl} alt={`Logo for ${name} service`} class="icon" />
 		<div class="text">
-			<h3>{name}</h3>
+			<div class="name">
+				<h3>{name}</h3>
+				<div class="status {status}">{status.toUpperCase()}</div>
+			</div>
 			<p>{desc}</p>
 		</div>
 	</div>
@@ -49,6 +78,37 @@
 		.text {
 			padding: 0.5rem;
 
+			.name {
+				display: flex;
+				gap: 0.5rem;
+			}
+
+			.status {
+				width: fit-content;
+				height: 1.5rem;
+				padding-left: 0.25rem;
+				padding-right: 0.25rem;
+				border-radius: 5px;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+				color: black;
+                font-weight: bold;
+                font-size: .5rem;
+			}
+
+			.status.up {
+				background-color: #a4ffa4;
+			}
+
+			.status.down {
+				background-color: #ffa4a4;
+			}
+
+			.status.pending {
+				background-color: #ffffa4;
+			}
+
 			p {
 				margin: 0;
 			}
@@ -61,20 +121,20 @@
 			.group {
 				button {
 					margin-left: 0.5rem;
-                    cursor: pointer;
+					cursor: pointer;
 
-                    transition-duration: 100ms;
+					transition-duration: 100ms;
 
-                    &:hover {
-                        filter: brightness(85%);
-                    }
+					&:hover {
+						filter: brightness(85%);
+					}
 
-                    &:active {
-                        filter: brightness(50%);
-                    }
+					&:active {
+						filter: brightness(50%);
+					}
 				}
-				
-                display: flex;
+
+				display: flex;
 
 				.src {
 					background-color: var(--fg);

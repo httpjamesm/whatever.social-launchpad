@@ -8,14 +8,16 @@
 			desc: 'Piped is an alternative frontend to YouTube.',
 			url: 'https://watch.whatever.social',
 			src: 'https://github.com/TeamPiped/Piped',
-			iconUrl: 'https://watch.whatever.social/favicon.ico'
+			iconUrl: 'https://watch.whatever.social/favicon.ico',
+			statusId: 'watch'
 		},
 		{
 			name: 'Nitter',
 			desc: 'Nitter is an alternative frontend for Twitter.',
 			url: 'https://read.whatever.social',
 			src: 'https://github.com/zedeus/nitter',
-			iconUrl: 'https://read.whatever.social/favicon.ico'
+			iconUrl: 'https://read.whatever.social/favicon.ico',
+			statusId: 'read'
 		}
 	];
 
@@ -25,7 +27,8 @@
 			desc: 'A free and ethical photo sharing platform.',
 			url: 'https://share.whatever.social',
 			src: 'https://github.com/pixelfed',
-			iconUrl: '/icons/pixelfed.png'
+			iconUrl: '/icons/pixelfed.png',
+			statusId: 'share'
 		}
 	];
 </script>

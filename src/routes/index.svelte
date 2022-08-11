@@ -26,7 +26,7 @@
 	<h1>whatever.social</h1>
 	<h2>High-quality FOSS instances for all.</h2>
 	<p>
-		whatever.social is a collection of <u>speedy and reliable</u> self-hosted instances of popular FOSS
+		whatever.social is a collection of <b>speedy and reliable</b> self-hosted instances of popular FOSS
 		projects, like Piped, Nitter and Hyperpipe. Our growing library focuses on alternatives to privacy
 		invasive services, like Google and Twitter.
 	</p>

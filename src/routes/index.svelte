@@ -30,6 +30,16 @@
 	];
 </script>
 
+<svelte:head>
+	<title>whatever.social - High-quality FOSS instances for all</title>
+	<meta
+		name="description"
+		content="whatever.social is a collection of speedy and reliable self-hosted instances of popular FOSS projects, like Piped, Nitter and Hyperpipe. Our growing library focuses on alternatives to privacy invasive services, like Google and Twitter."
+	/>
+	<meta name="og:image" content="/favicon.jpg" />
+	<meta name="theme-color" content="#f2f2f2" />
+</svelte:head>
+
 <ThemeSwitcher />
 
 <div class="container">

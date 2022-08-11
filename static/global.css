@@ -33,7 +33,7 @@ body {
 	color: var(--fg);
 }
 
-a {
+.link {
 	color: var(--fg);
 	border-bottom: 1px solid var(--underline);
 	text-decoration: none;
@@ -42,7 +42,7 @@ a {
 	transition-duration: 100ms;
 }
 
-a:hover {
+.link:hover {
 	background-color: var(--underline);
 	color: white;
 	border-radius: 3px;

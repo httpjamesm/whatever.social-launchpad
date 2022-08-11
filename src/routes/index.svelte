@@ -63,7 +63,7 @@
 					navigator.clipboard.writeText(
 						'0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e'
 					);
-					alert('Copied to clipboard!');
+					alert('Session ID Copied to clipboard!');
 				} catch (e) {
 					alert(
 						"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e."
@@ -86,6 +86,27 @@
 			<Service {...service} />
 		{/each}
 	</div>
+	
+	<h4>Help keep the project afloat</h4>
+	<p>
+		As as student, mounting server costs may become a problem in the future. If you'd like to support this project's growth, please consider donating via <a href="https://liberapay.com">Liberapay</a> or
+<span
+			class="link"
+			on:click={() => {
+				// clipboard copy
+				try {
+					navigator.clipboard.writeText(
+						'87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7'
+					);
+					alert('Monero Address Copied to clipboard!');
+				} catch (e) {
+					alert(
+						"For some reason we couldn't copy the Monero address to your clipboard. Here's the ID: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7."
+					);
+				}
+			}}>Monero</span
+		>.
+	</p>
 
 	<p class="credit">
 		Website made with ❤️ by <a class="link" href="https://httpjames.space" target="_blank"

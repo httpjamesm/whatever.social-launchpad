@@ -18,6 +18,16 @@
 			iconUrl: 'https://read.whatever.social/favicon.ico'
 		}
 	];
+
+	let socialNetworkServices = [
+		{
+			name: 'Pixelfed',
+			desc: 'A free and ethical photo sharing platform.',
+			url: 'https://share.whatever.social',
+			src: 'https://github.com/pixelfed',
+			iconUrl: '/icons/pixelfed.png'
+		}
+	];
 </script>
 
 <ThemeSwitcher />
@@ -40,7 +50,7 @@
 					navigator.clipboard.writeText(
 						'0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e'
 					);
-                    alert("Copied to clipboard!");
+					alert('Copied to clipboard!');
 				} catch (e) {
 					alert(
 						"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e."
@@ -50,9 +60,16 @@
 		>.
 	</p>
 
-    <h3>Social Frontends</h3>
+	<h3>Social Frontends</h3>
 	<div class="services">
 		{#each socialServices as service}
+			<Service {...service} />
+		{/each}
+	</div>
+
+	<h3>Social Networks</h3>
+	<div class="services">
+		{#each socialNetworkServices as service}
 			<Service {...service} />
 		{/each}
 	</div>
@@ -80,6 +97,11 @@
 	.container {
 		width: 30rem;
 		padding-top: 1rem;
+
+		@media only screen and (max-width: 800px) {
+			padding: 1rem;
+			box-sizing: border-box;
+		}
 
 		.services {
 			display: flex;

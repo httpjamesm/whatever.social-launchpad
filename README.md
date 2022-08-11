@@ -38,4 +38,26 @@ yarn build
 
 You can preview the production build with `yarn preview`.
 
-> To deploy your app, you may need to install an [adapter](https://kit.svelte.dev/docs/adapters) for your target environment.
+## Deploying
+
+The preferred and supported method of deploying is through Docker.
+
+Install Docker using the [documentation](https://docs.docker.com/get-docker/).
+
+Git clone the repository to your production server.
+
+```bash
+git clone https://github.com/httpjamesm/whatever.social-launchpad.git
+```
+
+Create your docker-compose.override.yml file and configure it to match your environment.
+
+```bash
+cp docker-compose.yml docker-compose.override.yml
+```
+
+Build and bring the docker container up.
+
+```bash
+docker compose -f docker-compose.override.yml up -d
+```

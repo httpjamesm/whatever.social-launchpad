@@ -89,7 +89,7 @@
 
 	<h4>Help keep the project afloat</h4>
 	<p>
-		As as student, mounting server costs may become a problem in the future. If you'd like to
+		As a student, mounting server costs may become a problem in the future. If you'd like to
 		support this project's growth, please consider donating via <a
 			class="link"
 			rel="noopener noreferrer"

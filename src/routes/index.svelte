@@ -92,7 +92,9 @@
 		As as student, mounting server costs may become a problem in the future. If you'd like to
 		support this project's growth, please consider donating via <a
 			class="link"
-			href="https://liberapay.com">Liberapay</a
+			rel="noopener noreferrer"
+			target="_blank"
+			href="https://liberapay.com/whateversocial">Liberapay</a
 		>
 		or
 		<span

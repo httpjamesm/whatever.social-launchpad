@@ -1,0 +1,60 @@
+* {
+	font-family: Figtree, sans-serif;
+}
+
+@font-face {
+	font-family: Figtree;
+	src: url('/Figtree/Figtree-VariableFont_wght.ttf') format('truetype');
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	margin: 0;
+}
+
+h2 {
+	font-weight: normal;
+}
+
+html,
+body {
+	height: 100%;
+	width: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: var(--bg);
+	color: var(--fg);
+}
+
+a {
+	color: var(--fg);
+	border-bottom: 1px solid var(--underline);
+	text-decoration: none;
+	padding: 0.15rem;
+
+	transition-duration: 100ms;
+}
+
+a:hover {
+	background-color: var(--underline);
+	color: white;
+	border-radius: 3px;
+}
+
+:root {
+	--bg: #f2f2f2;
+	--fg: #262626;
+	--underline: #4362ff;
+}
+
+[data-theme='dark'] {
+	--bg: #262626;
+	--fg: #f2f2f2;
+}

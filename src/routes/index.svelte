@@ -86,11 +86,16 @@
 			<Service {...service} />
 		{/each}
 	</div>
-	
+
 	<h4>Help keep the project afloat</h4>
 	<p>
-		As as student, mounting server costs may become a problem in the future. If you'd like to support this project's growth, please consider donating via <a href="https://liberapay.com">Liberapay</a> or
-<span
+		As as student, mounting server costs may become a problem in the future. If you'd like to
+		support this project's growth, please consider donating via <a
+			class="link"
+			href="https://liberapay.com">Liberapay</a
+		>
+		or
+		<span
 			class="link"
 			on:click={() => {
 				// clipboard copy

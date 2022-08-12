@@ -18,6 +18,14 @@
 			src: 'https://github.com/zedeus/nitter',
 			iconUrl: 'https://read.whatever.social/favicon.ico',
 			statusId: 'read'
+		},
+		{
+			name: 'Hyperpipe',
+			desc: 'A privacy respecting frontend for YouTube Music.',
+			url: 'https://listen.whatever.social',
+			src: 'https://codeberg.org/Hyperpipe/Hyperpipe',
+			iconUrl: 'https://listen.whatever.social/favicon.svg',
+			statusId: 'listen'
 		}
 	];
 
@@ -73,7 +81,7 @@
 		>.
 	</p>
 
-	<h3>Social Frontends</h3>
+	<h3>Alternative Frontends</h3>
 	<div class="services">
 		{#each socialServices as service}
 			<Service {...service} />

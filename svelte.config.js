@@ -13,7 +13,8 @@ const config = {
 			mode: 'auto',
 			directives: {
 				'default-src': ['self'],
-                'img-src': ['self', '*.whatever.social']
+                'img-src': ['self', '*.whatever.social'],
+                'connect-src': ['self', 'statusapi.whatever.social'],
 			}
 		}
 	}

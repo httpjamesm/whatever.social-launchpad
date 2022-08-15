@@ -42,7 +42,7 @@
 </script>
 
 <svelte:head>
-	<title>whatever.social - High-quality FOSS instances for all</title>
+	<title>whatever.social - Premium FOSS instances for all</title>
 	<meta
 		name="description"
 		content="whatever.social is a collection of speedy and reliable self-hosted instances of popular FOSS projects, like Piped, Nitter and Hyperpipe. Our growing library focuses on alternatives to privacy invasive services, like Google and Twitter."
@@ -54,8 +54,8 @@
 <ThemeSwitcher />
 
 <div class="container">
-	<h1>whatever.social</h1>
-	<h2>High-quality FOSS instances for all.</h2>
+	<h1>whatever<span style="color: #4362ff">.</span>social</h1>
+	<h2>Premium FOSS instances for all.</h2>
 	<p>
 		whatever.social is a collection of <b>speedy and reliable</b> self-hosted instances of popular FOSS
 		projects, like Piped, Nitter and Hyperpipe. Our growing library focuses on alternatives to privacy
@@ -67,16 +67,24 @@
 			class="link"
 			on:click={() => {
 				// clipboard copy
-				try {
-					navigator.clipboard.writeText(
-						'0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e'
-					);
-					alert('Session ID Copied to clipboard!');
-				} catch (e) {
-					alert(
-						"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e."
-					);
-				}
+				navigator.permissions.query({name: "clipboard-write" }).then((result) => {
+					if (result.state == "granted" || result.state == "prompt") {
+						navigator.clipboard.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e').then(function(x) {
+							alert("Session ID was beamed to your device. Paste away!");
+						});
+					}
+					else {
+						try {
+							navigator.clipboard.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e').then(function(x) {
+							alert("Whoops, we're not sure if this copied in your browser. Here's the ID just in case: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e");
+						});
+						} catch (e) {
+							alert(
+								"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e"
+							);
+						}
+					}
+				});
 			}}>Session</span
 		>.
 	</p>
@@ -95,6 +103,7 @@
 		{/each}
 	</div>
 
+	<br>
 	<h4>Help keep the project afloat</h4>
 	<p>
 		As a student, mounting server costs may become a problem in the future. If you'd like to
@@ -109,16 +118,24 @@
 			class="link"
 			on:click={() => {
 				// clipboard copy
-				try {
-					navigator.clipboard.writeText(
-						'87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7'
-					);
-					alert('Monero Address Copied to clipboard!');
-				} catch (e) {
-					alert(
-						"For some reason we couldn't copy the Monero address to your clipboard. Here's the ID: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7."
-					);
-				}
+				navigator.permissions.query({name: "clipboard-write" }).then((result) => {
+					if (result.state == "granted" || result.state == "prompt") {
+						navigator.clipboard.writeText('87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7').then(function(x) {
+							alert("The Monero Address was beamed to your device. Paste away!");
+						});
+					}
+					else {
+						try {
+							navigator.clipboard.writeText('87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7').then(function(x) {
+							alert("Whoops, we're not sure if this copied in your browser. Here's the address just in case: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7");
+						});
+						} catch (e) {
+							alert(
+								"For some reason we couldn't copy the Monero Address to your clipboard. Here's the address: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7"
+							);
+						}
+					}
+				});
 			}}>Monero</span
 		>.
 	</p>

@@ -67,17 +67,23 @@
 			class="link"
 			on:click={() => {
 				// clipboard copy
-				navigator.permissions.query({name: "clipboard-write" }).then((result) => {
-					if (result.state == "granted" || result.state == "prompt") {
-						navigator.clipboard.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e').then(function(x) {
-							alert("Session ID was beamed to your device. Paste away!");
-						});
-					}
-					else {
+				// @ts-ignore
+				navigator.permissions.query({ name: 'clipboard-write' }).then((result) => {
+					if (result.state == 'granted' || result.state == 'prompt') {
+						navigator.clipboard
+							.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e')
+							.then(function (x) {
+								alert('Session ID was beamed to your device. Paste away!');
+							});
+					} else {
 						try {
-							navigator.clipboard.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e').then(function(x) {
-							alert("Whoops, we're not sure if this copied in your browser. Here's the ID just in case: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e");
-						});
+							navigator.clipboard
+								.writeText('0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e')
+								.then(function (x) {
+									alert(
+										"Whoops, we're not sure if this copied in your browser. Here's the ID just in case: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e"
+									);
+								});
 						} catch (e) {
 							alert(
 								"For some reason we couldn't copy the Session ID to your clipboard. Here's the ID: 0588cff4c1a032b40514e8c9fb1a52124e9865953c0dd052563dce47a8c727256e"
@@ -103,11 +109,11 @@
 		{/each}
 	</div>
 
-	<br>
+	<br />
 	<h4>Help keep the project afloat</h4>
 	<p>
-		As a student, mounting server costs may become a problem in the future. If you'd like to
-		support this project's growth, please consider donating via <a
+		As a student, mounting server costs may become a problem in the future. If you'd like to support
+		this project's growth, please consider donating via <a
 			class="link"
 			rel="noopener noreferrer"
 			target="_blank"
@@ -118,17 +124,27 @@
 			class="link"
 			on:click={() => {
 				// clipboard copy
-				navigator.permissions.query({name: "clipboard-write" }).then((result) => {
-					if (result.state == "granted" || result.state == "prompt") {
-						navigator.clipboard.writeText('87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7').then(function(x) {
-							alert("The Monero Address was beamed to your device. Paste away!");
-						});
-					}
-					else {
+				// @ts-ignore
+				navigator.permissions.query({ name: 'clipboard-write' }).then((result) => {
+					if (result.state == 'granted' || result.state == 'prompt') {
+						navigator.clipboard
+							.writeText(
+								'87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7'
+							)
+							.then(function (x) {
+								alert('The Monero Address was beamed to your device. Paste away!');
+							});
+					} else {
 						try {
-							navigator.clipboard.writeText('87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7').then(function(x) {
-							alert("Whoops, we're not sure if this copied in your browser. Here's the address just in case: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7");
-						});
+							navigator.clipboard
+								.writeText(
+									'87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7'
+								)
+								.then(function (x) {
+									alert(
+										"Whoops, we're not sure if this copied in your browser. Here's the address just in case: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7"
+									);
+								});
 						} catch (e) {
 							alert(
 								"For some reason we couldn't copy the Monero Address to your clipboard. Here's the address: 87tu5QTMSKmi8RmyyRCP1daBouRKegmL54k9d4cqqWscHWTqSaKRXQu9X2g81JgJyfQFbyL1dTRmR6TsZ8oZZqLj1Ljfyd7"
@@ -176,6 +192,7 @@
 
 		.credit {
 			font-size: 0.9rem;
+            padding-bottom: 1rem;
 		}
 	}
 </style>

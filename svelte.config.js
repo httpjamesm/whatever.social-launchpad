@@ -8,7 +8,14 @@ const config = {
 	preprocess: preprocess(),
 
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+		csp: {
+			mode: 'auto',
+			directives: {
+				'default-src': ['self'],
+                'img-src': ['self', '*.whatever.social']
+			}
+		}
 	}
 };
 

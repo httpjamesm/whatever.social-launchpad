@@ -95,6 +95,7 @@
 		{/each}
 	</div>
 
+	<br>
 	<h4>Help keep the project afloat</h4>
 	<p>
 		As a student, mounting server costs may become a problem in the future. If you'd like to

@@ -15,7 +15,7 @@ const config = {
 				'default-src': ['self'],
 				'img-src': ['self', '*.whatever.social'],
 				'connect-src': ['self', 'statusapi.whatever.social'],
-				'style-src': ['self']
+				'style-src': ['self', 'unsafe-inline'],
 			}
 		}
 	}

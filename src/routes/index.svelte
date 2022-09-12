@@ -5,7 +5,7 @@
 	let socialServices = [
 		{
 			name: 'Piped',
-			desc: 'Piped is an alternative frontend to YouTube.',
+			desc: 'Piped is an alternative frontend for YouTube.',
 			url: 'https://watch.whatever.social',
 			src: 'https://github.com/TeamPiped/Piped',
 			iconUrl: 'https://watch.whatever.social/favicon.ico',
@@ -37,6 +37,17 @@
 			src: 'https://github.com/pixelfed',
 			iconUrl: '/icons/pixelfed.png',
 			statusId: 'share'
+		}
+	];
+
+	let tinfoilServices = [
+		{
+			name: 'Piped (Tinfoil)',
+			desc: 'The same alternative frontend for YouTube, but with even more privacy.',
+			url: 'https://watch.whatevertinfoil.de',
+			src: 'https://github.com/TeamPiped/Piped',
+			iconUrl: 'https://watch.whatever.social/favicon.ico',
+			statusId: 'watch'
 		}
 	];
 </script>
@@ -106,7 +117,17 @@
 			<Service {...service} />
 		{/each}
 	</div>
+	<br>
 
+	<h3>Whatever Tinfoil</h3>
+	<p>An edition of Whatever Social services for the hardcore privacy enthusiasts. Hosted on a separate server in Nuremburg, Germany, these Cloudflare-free instances give the appreciated tinfoil-hat-wearers better peace of mind.</p>
+	<div class="services">
+		{#each tinfoilServices as service}
+			<Service {...service} />
+		{/each}
+	</div>
+
+	<br>
 	<br>
 	<h4>Help keep the project afloat</h4>
 	<p>

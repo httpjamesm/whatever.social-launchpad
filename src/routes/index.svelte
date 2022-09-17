@@ -47,7 +47,7 @@
 			url: 'https://watch.whatevertinfoil.de',
 			src: 'https://github.com/TeamPiped/Piped',
 			iconUrl: 'https://watch.whatever.social/favicon.ico',
-			statusId: 'watch'
+			statusId: 'tinfoil_piped'
 		}
 	];
 </script>

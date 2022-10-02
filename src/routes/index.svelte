@@ -31,8 +31,8 @@
 
 	let socialNetworkServices = [
 		{
-			name: 'Pixelfed',
-			desc: 'A free and ethical photo sharing platform.',
+			name: 'Pixelfed (Shutting Down)',
+			desc: 'We are shutting down our Pixelfed instance. The reason is simply because it requires us to have access to sensitive information, such as e-mail addresses, private user media and messages. Data will be retained until October 9th, 2022 at 12:00AM EST, after which it will be removed. Requests for your media can be made using the Session address above (You will be asked to verify the e-mail address listed on your account for security purposes).',
 			url: 'https://share.whatever.social',
 			src: 'https://github.com/pixelfed',
 			iconUrl: '/icons/pixelfed.png',

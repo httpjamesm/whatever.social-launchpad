@@ -222,7 +222,7 @@
 		<a class="link" href="https://whatever.social/privacy" target="_blank">Privacy Policy</a>,
 		<a
 			class="link"
-			href="https://whatver.social/transparency"
+			href="https://whatever.social/transparency"
 			target="_blank"
 			rel="noopener noreferrer">Transparency Report</a
 		>

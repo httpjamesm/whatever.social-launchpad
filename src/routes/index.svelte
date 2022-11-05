@@ -41,7 +41,7 @@
 			url: 'https://whatever.social',
 			src: 'https://github.com/pablouser1/ProxiTok',
 			iconUrl: 'https://raw.githubusercontent.com/pablouser1/ProxiTok/master/favicon.ico',
-			statusId: 'listen'
+			statusId: 'proxitok'
 		}
 	];
 

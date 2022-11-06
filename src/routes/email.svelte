@@ -56,7 +56,6 @@ eijbRccmQfUSiWCtqMaIdsm8Rtx3qvBUAA==
 	}
 
 	.container {
-		float: left;
 		width: 30rem;
 		padding-top: 1rem;
 		text-align: left;

@@ -23,19 +23,18 @@
 		Whatever Social is committed to giving users more control over their digital life. This is why we
 		take steps to help ensure we are providing a private and secure experience while you browse your
 		favorite social media. This policy outlines important details such as what we store, what you will
-		need consult third parties for, and situations where we cannot protect you.
+		need to consult third parties for, and situations where we cannot protect you.
 		<br />
 		<br />
 		This policy applies to all whatever.social sites, found at https://whatever.social, https://whatevertinfoil.de
 		and all their subdomains. Some sections of this policy may be specific to one of our services, in
 		which case it is specified. By using our services, you are agreeing to this policy.
 		<br /> <br />
-		Last updated: November 5th, 2022
+		Last updated: November 6th, 2022
 	</p>
 	<br />
 	<br />
 	<h2>👤 Personal Data</h2>
-	<br />
 	<p>
 		While visiting our sites: The logging done on our sites is minimal to keep the experience
 		private. For example, our NGINX (A service that we use on our server) logs are kept disabled.
@@ -63,10 +62,10 @@
 	<br />
 	<br />
 	<h2>🍪 Cookies</h2>
-	<br />
 	<p>
-		The only use of cookies in our services is to keep you signed into our services which accounts
-		can be used in. We do not use cookies for any other purposes.
+		The only use of cookies and local storage in our services is to keep you signed into our services which accounts
+		can be used in, and to save your preferences (Ex: Default video quality on https://watch.whatever.social). 
+		We do not use cookies for any other purposes.
 	</p>
 	<br />
 	<br />
@@ -101,12 +100,12 @@
 	<h3>Kavin.rocks</h3>
 	<p>
 		On https://watch.whatever.social and https://watch.whatevertinfoil.de, fonts may be loaded from
-		https://fonts.kavin.rocks
+		https://fonts.kavin.rocks, which operates via Cloudflare Workers.
 	</p>
 	<br />
 	<h3>Session</h3>
 	<p>
-		We use Session as one of the methods for contacting us. To learn more, view <a
+		We use Session as one of the methods for contacting us. View <a
 			class="link"
 			href="https://www.cloudflare.com/privacypolicy/"
 			target="_blank">Session's Privacy Policy</a
@@ -147,8 +146,7 @@
 	<br />
 	<h3>Cake Wallet</h3>
 	<p>
-		If Monero is your chosen method of payment, we rely on Cake Wallet to receive your payment. You
-		can read <a
+		If Monero is your chosen method of payment, we rely on Cake Wallet to receive your payment. View <a
 			class="link"
 			href="https://raw.githubusercontent.com/cake-tech/cake_wallet/main/PRIVACY.md"
 			target="_blank">Cake Wallet's Privacy Policy</a

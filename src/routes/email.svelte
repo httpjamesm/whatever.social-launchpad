@@ -29,23 +29,24 @@
 	</p>
 	<br />
 	<br />
-	<h2>PGP Signature - Send us your e-mail securely</h2>
-	<p>
-		<code>
-			-----BEGIN PGP PUBLIC KEY BLOCK-----
-			<br />
-			<br />
-			xjMEY2YcxRYJKwYBBAHaRw8BAQdAcsXp6irjbjiAoRQs3/4loB55Lat9wmN4 yRKQ1i25WmnNNWl0c3doYXRldmVydGltZUBwcm90b24ubWUgPGl0c3doYXRl
-			dmVydGltZUBwcm90b24ubWU+wowEEBYKAD4FAmNmHMUECwkHCAkQwNeKfKFb rTUDFQgKBBYAAgECGQECGwMCHgEWIQQxwUyJpmnbzfPK78rA14p8oVutNQAA
-			rogBAJ8f4bEGm/xK6mpF5oow9+4SEbcjVewcZwwOvykEMO/cAP9o1wGGLlsW C1toJZAFZC9lqWu5DkZIn7ZWggAZCtuyBs44BGNmHMUSCisGAQQBl1UBBQEB
-			B0AmYeB6l3gaPidCUE+2R1BVqdKH7ztYcVarjTDBabVuDQMBCAfCeAQYFggA KgUCY2YcxQkQwNeKfKFbrTUCGwwWIQQxwUyJpmnbzfPK78rA14p8oVutNQAA
-			2IABAOeWU4NTTWUTTCtlakWf8yfP9BzShawSc9LcCu7flfp5AQCzPQ74cpYm eijbRccmQfUSiWCtqMaIdsm8Rtx3qvBUAA==
-			<br />
-			=9dkg
-			<br />
-			-----END PGP PUBLIC KEY BLOCK-----
-		</code>
-	</p>
+		<h2>PGP Public Key - Send us your e-mail securely</h2>
+		<br />
+			<pre>
+-----BEGIN PGP PUBLIC KEY BLOCK-----
+
+xjMEY2YcxRYJKwYBBAHaRw8BAQdAcsXp6irjbjiAoRQs3/4loB55Lat9wmN4
+yRKQ1i25WmnNNWl0c3doYXRldmVydGltZUBwcm90b24ubWUgPGl0c3doYXRl
+dmVydGltZUBwcm90b24ubWU+wowEEBYKAD4FAmNmHMUECwkHCAkQwNeKfKFb
+rTUDFQgKBBYAAgECGQECGwMCHgEWIQQxwUyJpmnbzfPK78rA14p8oVutNQAA
+rogBAJ8f4bEGm/xK6mpF5oow9+4SEbcjVewcZwwOvykEMO/cAP9o1wGGLlsW
+C1toJZAFZC9lqWu5DkZIn7ZWggAZCtuyBs44BGNmHMUSCisGAQQBl1UBBQEB
+B0AmYeB6l3gaPidCUE+2R1BVqdKH7ztYcVarjTDBabVuDQMBCAfCeAQYFggA
+KgUCY2YcxQkQwNeKfKFbrTUCGwwWIQQxwUyJpmnbzfPK78rA14p8oVutNQAA
+2IABAOeWU4NTTWUTTCtlakWf8yfP9BzShawSc9LcCu7flfp5AQCzPQ74cpYm
+eijbRccmQfUSiWCtqMaIdsm8Rtx3qvBUAA==
+=9dkg
+-----END PGP PUBLIC KEY BLOCK-----
+			</pre>
 </div>
 
 <style lang="scss">
@@ -57,10 +58,15 @@
 	.container {
 		width: 30rem;
 		padding-top: 1rem;
+		text-align: left;
 
 		@media only screen and (max-width: 800px) {
 			padding: 1rem;
 			box-sizing: border-box;
 		}
+	}
+
+	.container pre {
+		font-size: 70%;
 	}
 </style>

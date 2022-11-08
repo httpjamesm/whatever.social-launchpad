@@ -87,16 +87,6 @@
 	<br />
 	<h2>🤝 Third-parties providing Technical Services</h2>
 	<br />
-	<h3>Cloudflare</h3>
-	<p>
-		We rely on Cloudflare to provide us with DDoS protection, CDN delivery, and certain other web
-		services. Cloudflare is not used on services hosted on our whatevertinfoil.de domain. View <a
-			class="link"
-			href="https://www.cloudflare.com/privacypolicy/"
-			target="_blank">Cloudflare's Privacy Policy</a
-		> to learn more.
-	</p>
-	<br />
 	<h3>NOC.org</h3>
 	<p>
 		We rely on NOC.org to provide us with DDoS protection, CDN delivery and certain other web services. 

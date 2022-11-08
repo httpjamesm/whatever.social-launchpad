@@ -30,7 +30,7 @@
 		and all their subdomains. Some sections of this policy may be specific to one of our services, in
 		which case it is specified. By using our services, you are agreeing to this policy.
 		<br /> <br />
-		Last updated: November 6th, 2022
+		Last updated: November 8th, 2022
 	</p>
 	<br />
 	<br />
@@ -96,6 +96,15 @@
 			target="_blank">Cloudflare's Privacy Policy</a
 		> to learn more.
 	</p>
+	<br />
+	<h3>NOC.org</h3>
+	<p>
+		We rely on NOC.org to provide us with DDoS protection, CDN delivery and certain other web services. 
+		NOC.org is not used on services on our whatevertinfoil.de domain. View <a
+		  	class="link"
+		  	href="https://noc.org/privacy/"
+		  	target="_blank">NOC.org's Privacy Policy</a
+		> to learn more.
 	<br />
 	<h3>Kavin.rocks</h3>
 	<p>

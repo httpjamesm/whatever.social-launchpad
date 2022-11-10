@@ -1,6 +1,7 @@
 <script lang="ts">
 	import Service from '../components/Service.svelte';
 	import ThemeSwitcher from '../components/ThemeSwitcher.svelte';
+	import { browser } from '$app/env';
 
 	if (browser) {
 		if (window.localStorage.getItem('theme') === undefined) {

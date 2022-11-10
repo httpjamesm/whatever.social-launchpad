@@ -30,7 +30,7 @@
 		and all their subdomains. Some sections of this policy may be specific to one of our services, in
 		which case it is specified. By using our services, you are agreeing to this policy.
 		<br /> <br />
-		Last updated: November 8th, 2022
+		Last updated: November 10th, 2022
 	</p>
 	<br />
 	<br />
@@ -46,7 +46,7 @@
 		services and other users of our services. View the "Law Enforcement" section of this policy to
 		see how we may be forced to enable them in other situations. An NGINX log, in the duration that
 		its stored, may include your IP address, user agent, and a timestamp along with your web
-		request.
+		request. See the "Third-parties providing Technical Services" section of this policy.
 		<br />
 		<br />
 		Information you provide to us: Usernames are stored for the services they apply to. Your e-mail address
@@ -63,9 +63,9 @@
 	<br />
 	<h2>🍪 Cookies</h2>
 	<p>
-		The only use of cookies and local storage in our services is to keep you signed into our services which accounts
-		can be used in, and to save your preferences (Ex: Default video quality on https://watch.whatever.social). 
-		We do not use cookies for any other purposes.
+		The only use of cookies and local storage in our services is to keep you signed into our
+		services which accounts can be used in, and to save your preferences (Ex: Default video quality
+		on https://watch.whatever.social). We do not use cookies for any other purposes.
 	</p>
 	<br />
 	<br />
@@ -89,12 +89,13 @@
 	<br />
 	<h3>NOC.org</h3>
 	<p>
-		We rely on NOC.org to provide us with DDoS protection, CDN delivery and certain other web services. 
-		NOC.org is not used on services on our whatevertinfoil.de domain. View <a
-		  	class="link"
-		  	href="https://noc.org/privacy/"
-		  	target="_blank">NOC.org's Privacy Policy</a
+		We rely on NOC.org to provide us with DDoS protection, CDN delivery and certain other web
+		services. NOC.org is not used on services on our whatevertinfoil.de domain. View <a
+			class="link"
+			href="https://noc.org/privacy/"
+			target="_blank">NOC.org's Privacy Policy</a
 		> to learn more.
+	</p>
 	<br />
 	<h3>Kavin.rocks</h3>
 	<p>

@@ -40,7 +40,7 @@
 			desc: 'An alternative frontend for Reddit',
 			url: 'https://discuss.whatever.social',
 			src: 'https://github.com/libreddit/libreddit',
-			iconUrl: 'https://discuss.whatever.social/favicon.svg',
+			iconUrl: 'https://discuss.whatever.social/logo.png',
 			statusId: 'libreddit'
 		},
 		{
@@ -149,7 +149,12 @@
 						});
 				}
 			}}>Session</span
-		>.
+		>. Be sure to follow @whatever on <a 
+		   	rel="me"
+		   	class="link"
+			href="https://noc.social/@whatever"
+			target="_blank">Mastodon</a
+		   >.
 	</p>
 
 	<h3>Alternative Frontends</h3>

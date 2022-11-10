@@ -1,6 +1,13 @@
 <script lang="ts">
 	import Service from '../components/Service.svelte';
 	import ThemeSwitcher from '../components/ThemeSwitcher.svelte';
+
+	if (browser) {
+		if (window.localStorage.getItem('theme') === undefined) {
+			window.localStorage.setItem('theme', 'dark');
+			window.location.reload();
+		}
+	}
 </script>
 
 <svelte:head>

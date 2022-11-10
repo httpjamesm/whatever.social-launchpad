@@ -28,12 +28,12 @@
 			statusId: 'listen'
 		},
 		{
-			name: 'Ferrit',
-			desc: 'Coming Soon - An alternative frontend for Reddit',
-			url: 'https://whatever.social',
-			src: 'https://github.com/ferritreader/ferrit',
-			iconUrl: 'https://raw.githubusercontent.com/ferritreader/ferrit/master/static/favicon.ico',
-			statusId: 'ferrit'
+			name: 'Libreddit',
+			desc: 'An alternative frontend for Reddit',
+			url: 'https://discuss.whatever.social',
+			src: 'https://github.com/libreddit/libreddit',
+			iconUrl: 'https://discuss.whatever.social/favicon.svg',
+			statusId: 'libreddit'
 		},
 		{
 			name: 'Proxitok',
@@ -152,8 +152,8 @@
 	<h3>Whatever Tinfoil</h3>
 	<p>
 		An edition of Whatever Social services for the hardcore privacy enthusiasts. Hosted on a
-		separate server in Nuremburg, Germany, these Cloudflare-free instances give the appreciated
-		tinfoil-hat-wearers better peace of mind.
+		separate server in Nuremburg, Germany, these CDN-free instances fetch data straight from our server, 
+		giving the appreciated tinfoil-hat-wearers better peace of mind.
 	</p>
 	<div class="services">
 		{#each tinfoilServices as service}

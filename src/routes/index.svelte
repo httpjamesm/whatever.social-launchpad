@@ -28,12 +28,12 @@
 			statusId: 'listen'
 		},
 		{
-			name: 'Ferrit',
-			desc: 'Coming Soon - An alternative frontend for Reddit',
-			url: 'https://whatever.social',
-			src: 'https://github.com/ferritreader/ferrit',
-			iconUrl: 'https://raw.githubusercontent.com/ferritreader/ferrit/master/static/favicon.ico',
-			statusId: 'ferrit'
+			name: 'Libreddit',
+			desc: 'An alternative frontend for Reddit',
+			url: 'https://discuss.whatever.social',
+			src: 'https://github.com/libreddit/libreddit',
+			iconUrl: 'https://discuss.whatever.social/favicon.svg',
+			statusId: 'libreddit'
 		},
 		{
 			name: 'Proxitok',

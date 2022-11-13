@@ -82,7 +82,7 @@
 		In the event of a subpoena, court order, other legal process, or to exercise our legal rights
 		and/or to defend against legal claims, we may be forced to give applicable information with
 		third-parties. Our sites hosted on our whatever.social domain operate on a server in Los
-		Angeles, California, and are subject to United States Law. Our sites hosted on our
+		Angeles, California, which is subject to United States Law, and on a server in Nice, Provence-Alpes-Côte d'Azur and is subject to French Law. Our sites hosted on our
 		whatevertinfoil.de domain operate on a server in Germany, and are subject to German Law.
 		<br />
 		<br />

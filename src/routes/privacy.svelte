@@ -38,7 +38,7 @@
 		and all their subdomains. Some sections of this policy may be specific to one of our services, in
 		which case it is specified. By using our services, you are agreeing to this policy.
 		<br /> <br />
-		Last updated: November 10th, 2022
+		Last updated: November 13th, 2022
 	</p>
 	<br />
 	<br />

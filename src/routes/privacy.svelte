@@ -115,7 +115,7 @@
 	<p>
 		We use Session as one of the methods for contacting us. View <a
 			class="link"
-			href="https://www.cloudflare.com/privacypolicy/"
+			href="https://getsession.org/privacy-policy"
 			target="_blank">Session's Privacy Policy</a
 		> to learn more.
 	</p>

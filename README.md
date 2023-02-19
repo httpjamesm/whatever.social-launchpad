@@ -1,3 +1,7 @@
+# This site (not including privacy policy) is outdated, and will be replaced by the upcoming redesign.
+There's no timeline as we're balancing other stuff IRL, but it'll come very soon
+
+
 # whatever.social-launchpad
 
 The homepage and launchpad for whatever.social listing all available instances.

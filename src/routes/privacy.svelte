@@ -38,7 +38,7 @@
 		and all their subdomains. Some sections of this policy may be specific to one of our services, in
 		which case it is specified. By using our services, you are agreeing to this policy.
 		<br /> <br />
-		Last updated: November 13th, 2022
+		Last updated: February 20, 2023
 	</p>
 	<br />
 	<br />
@@ -101,6 +101,15 @@
 			class="link"
 			href="https://noc.org/privacy/"
 			target="_blank">NOC.org's Privacy Policy</a
+		> to learn more.
+	</p>
+	<br />
+	<h3>Backblaze</h3>
+	<p>
+		We rely on Backblaze for data backups. Each backup is retained for 14 days. Backblaze is not used on services on our whatevertinfoil.de domain. View <a
+			class="link"
+			href="https://www.backblaze.com/company/privacy.html"
+			target="_blank">Backblazes's Privacy Policy</a
 		> to learn more.
 	</p>
 	<br />
